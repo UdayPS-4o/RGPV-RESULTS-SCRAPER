@@ -1,0 +1,20 @@
+{
+  "name": "rgpv-request-scraper",
+  "version": "1.0.0",
+  "description": "HTTP request-based scraper for RGPV results",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "single": "node test.js single",
+    "batch": "node test.js batch",
+    "range": "node test.js range"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "exceljs": "^4.4.0",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^4.0.0",
+    "tesseract.js": "^4.1.1"
+  }
+}
